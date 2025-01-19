@@ -2,6 +2,20 @@
 
 A Node.js library for GS\_USB devices, supporting CANtact, CANable, and CANalyze adapters. Designed specifically with macOS compatibility in mind, it provides a simple and efficient interface for CAN Bus communication.
 
+## Installation
+
+Install CANfetti via npm:
+
+```bash
+npm install canfetti
+```
+
+Or via yarn:
+
+```bash
+yarn install canfetti
+```
+
 ![Canable USB to CAN](https://github.com/RyLeeHarrison/CANfetti/blob/931d70462d37377707ce3261c7e57142c1086e6a/Canable.jpg)
 
 ## I put some examples in /Examples

@@ -20,7 +20,7 @@ async function main() {
         await can.startListening();
         
         // Simple send 8 byte string to send as can frame data
-        // Ex String: 0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08
+        // Ex String: "0x01 0x02 0x03 0x04 0x05 0x06 0x07 0x08"
         rl.on('line', (input) => can.sendHex(input, defaultArbitrationId));
 
         console.log('CAN initialized at 500kbps');
