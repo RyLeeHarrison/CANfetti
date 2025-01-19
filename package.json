@@ -1,0 +1,51 @@
+{
+  "name": "CANfetti",
+  "version": "1.0.0",
+  "description": "A Node.js library for GS_USB devices, supporting CANtact, CANable, and CANalyze adapters. Optimized for seamless MacOS CAN Bus communication.",
+  "type": "module",
+  "main": "index.mjs",
+  "files": [
+    "src",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.js\""
+  },
+  "author": "RyLee Harrison <ryleeharrison@icloud.com>",
+  "license": "MIT",
+  "keywords": [
+    "GS_USB",
+    "CAN Bus",
+    "CANtact",
+    "CANable",
+    "CANalyze",
+    "MacOS",
+    "Node.js",
+    "CAN",
+    "USB"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryleeharrison/CANfetti.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryleeharrison/CANfetti/issues"
+  },
+  "homepage": "https://github.com/ryleeharrison/CANfetti#readme",
+  "dependencies": {
+    "usb": "^2.14.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
