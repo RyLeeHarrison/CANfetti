@@ -1,5 +1,5 @@
 {
-  "name": "CANfetti",
+  "name": "canfetti",
   "version": "1.0.0",
   "description": "A Node.js library for GS_USB devices, supporting CANtact, CANable, and CANalyze adapters. Optimized for seamless MacOS CAN Bus communication.",
   "type": "module",
